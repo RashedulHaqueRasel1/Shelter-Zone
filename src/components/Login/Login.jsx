@@ -162,7 +162,7 @@ const Login = () => {
                         </svg>
                     </button>
                 </div>
-                <p className=" text-center sm:px-6 font-bold text-[14px] dark:text-gray-600">Don t have an account?
+                <p className=" text-center sm:px-6 font-bold text-[14px] dark:text-gray-600">Don't have an account?
                     <NavLink to={'/registration'} className="link link-hover  text-rose-700">Sign up</NavLink>
                 </p>
 
