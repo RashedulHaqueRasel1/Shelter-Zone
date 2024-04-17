@@ -46,12 +46,12 @@ const UpdateProfile = () => {
                     <div className="space-y-1 text-sm mt-2">
                         <label htmlFor="name" className="block d ">Name</label>
                         <input type="text" name="name" id="name" placeholder="Your Name" className="input input-bordered w-full border-blue-300   focus:dark:border-blue-500" required {...register("name", { required: true })}/>
-                        {errors.name && <span>This field is required</span>}
+                        {errors.name && <span>This field is required.</span>}
                     </div>
                     <div className="space-y-1 text-sm">
                         <label htmlFor="PhotoUrl" className="block  ">Photo URL</label>
                         <input type="PhotoUrl" name="PhotoUrl" id="PhotoUrl" placeholder="Photo URL" className="input input-bordered w-full   border-blue-300   focus:dark:border-blue-500" required {...register("photoUrl", { required: true })}/>
-                        {errors.photoUrl && <span>This field is required</span>}
+                        {errors.photoUrl && <span>This field is required.</span>}
 
                     </div>
                     <button className="btn w-full hover:outline text-[16px] bg-purple-500 hover:bg-transparent text-white hover:text-black mr-3" data-aos="fade-up" data-aos-duration="3000">Update</button>
