@@ -85,13 +85,6 @@ const NavBar = () => {
                                             <img alt="Tailwind CSS Navbar component" src={user.photoURL || 'https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg'} />
                                         </div>
                                     </div>
-                                    {/* <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-
-                                        <li> {user.displayName} </li>
-                                        <li className="btn btn-ghost"><NavLink to={'/updateProfile'}>Update Profile</NavLink></li>
-                                        <li className="btn btn-ghost"><NavLink to={'/profile'}>Profile</NavLink></li>
-
-                                    </ul> */}
                                 </div>
                                 <button onClick={handleLogOut} className="btn bg-purple-500 hover:bg-transparent text-white hover:text-black " >
 
