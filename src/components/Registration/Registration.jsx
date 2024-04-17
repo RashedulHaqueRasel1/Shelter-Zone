@@ -158,7 +158,7 @@ const Registration = () => {
                                     <span className="label-text">Name</span>
                                 </label>
                                 <input type="text" name="name" placeholder="Name" className="input input-bordered  border-blue-300   focus:dark:border-blue-500" required data-aos="fade-up" data-aos-duration="2200" {...register("name", { required: true })} />
-                                {errors.name && <span>This field is required</span>}
+                                {errors.name && <span>This field is required.</span>}
                             </div>
 
                             <div className="form-control">
@@ -166,7 +166,7 @@ const Registration = () => {
                                     <span className="label-text">Photo URL</span>
                                 </label>
                                 <input type="text" name="photo" placeholder="Photo URL" className="input input-bordered  border-blue-300   focus:dark:border-blue-500" required data-aos="fade-up" data-aos-duration="2500" {...register("photoUrl", { required: true })} />
-                                {errors.photoUrl && <span>This field is required</span>}
+                                {errors.photoUrl && <span>This field is required.</span>}
                             </div>
 
 
@@ -175,7 +175,7 @@ const Registration = () => {
                                     <span className="label-text">Email</span>
                                 </label>
                                 <input type="email" name="email" placeholder="email" className="input input-bordered  border-blue-300   focus:dark:border-blue-500" required data-aos="fade-up" data-aos-duration="2700" {...register("email", { required: true })} />
-                                {errors.email && <span>This field is required</span>}
+                                {errors.email && <span>This field is required.</span>}
                             </div>
 
 
@@ -211,7 +211,7 @@ const Registration = () => {
                                 <label className="label">
                                     <h1>Already Have Account? <Link to={'/login'} className="link link-hover text-rose-700">Login</Link> </h1>
                                 </label>
-                                {errors.password && <span>This field is required</span>}
+                                {errors.password && <span>This field is required.</span>}
                             </div>
 
 
