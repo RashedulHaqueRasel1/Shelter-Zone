@@ -22,10 +22,8 @@ const PropertyDetails = () => {
 
     const {
         estate_title,
-        segment_name,
         description,
         price,
-        status,
         area,
         location,
         facilities,
