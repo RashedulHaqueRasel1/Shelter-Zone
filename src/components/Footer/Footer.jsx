@@ -56,7 +56,7 @@ const Footer = () => {
 									<a rel="noopener noreferrer" href="#">Documentation</a>
 								</li>
 								<li>
-									<a rel="noopener noreferrer" href="#">Guides</a>
+									<a rel="noopener noreferrer" href="#">Guide</a>
 								</li>
 							</ul>
 						</div>
