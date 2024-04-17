@@ -75,7 +75,7 @@ const Hero = () => {
                             <div className='absolute top-[50%] ml-32  mx-auto container '  >
                                 <h1 className='font-bold text-xl lg:text-6xl text-white animate__animated animate__fadeInDown' >Find Your Dream House  </h1>
                                 <p className='text-white text-[16px] w-1/2 ml-96 mt-5 animate__animated animate__fadeInLeft'>
-                                    Discover your dream house among our diverse residential properties. From luxurious amenities to prime locations, we offer options to suit every lifestyle. Find your perfect home with us today!</p>
+                                    Discover your dream house among our diverse residential properties. From luxurious amenities to prime locations, we offer options to suit every lifestyle. Find your perfect home with us today.</p>
 
 
                                 <Link to={'/login'} className="relative mt-5 animate__animated animate__fadeInRight inline-flex items-center px-12 py-3 overflow-hidden text-lg font-medium text-white border-2 border-purple-500 rounded-full hover:text-white group hover:bg-gray-50">
